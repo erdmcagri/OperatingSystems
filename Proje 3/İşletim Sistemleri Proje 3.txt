@@ -1,0 +1,13 @@
+Proje Adý:
+Linux thread senkronizasyon problemi : Fabrika
+
+Proje Çlýþma Þekli:
+Bir fabrikada bulunan makinalardan, ürün üreten iki adet makina vardýr: “&makinasý”, “$makinasý”. Bu makinalardan biri 
+“&” ürününü üretmekte diðeri “$” ürününü üretmektedir. Bu makinalar üretim yapabilmek için küçük bir makina olan 
+“&makina$” makinasýna ihtiyaç duymaktadýrlar. &makinasýnýn üretim yapabilmesi 3 saniye sürmekte ve $makinasý ise 
+5 saniyede üretim yapabilmektedir. Bir makina bir ürün ürettiðinde o ürün birleþtirme yapýlana kadar baþka ürün üretmez. 
+Bir diðer bir makina olan $&birleþtir makinasý diðer “&makina”, “$makina” makinalarýn ürettiði ürünü alýp bir seri 
+numarasý basarak 4 saniyede yeni tümleþik bir ürün çýkarmaktadýr.
+
+
+Mutex Lock senkronizasyon yöntemi kullanýlarak yapýlmýþtýr.

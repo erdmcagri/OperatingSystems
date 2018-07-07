@@ -1,0 +1,28 @@
+Proje Adý:
+Linux Shell Yazma
+
+Proje Konusu:
+Kendi linux shell programýnýn yazýlmasý istenilmiþtir. Bu shell programýnýn
+kendine özgü komutlarý, yanýtlarý, hata çýktýlarý olmalýdýr. 
+
+Myshell çalýþmasý:
+-Shell komut satýrý “myshell>>” olarak görülmelidir. (Eksik olamaz)
+-“exit” komutu girilene kadar çýkýþ olamaz. Her seferinde “myshell>>” olarak yeni komut satýrýna izin vermelidir. (Eksik olamaz) 
+-Eðer shellde olmayan bir komut ya da hatalý bir komut girilmiþse “yanlis bir komut girdiniz” demelidir. (-20)
+-“plustwo” ve “minustwo” olarak  iki adet program yazmalýsýnýz ve bunu myshell’den iki parametre alarak çalýþmalýdýr ve çýktýlarý yazmalýdýr. 
+ “myshell>> plustwo 2 4” çýktý: “2+4=6”. Bu programlarýn çaðýrýlmasý fork ile yapýlmasý ve programlar bitmediði sürece shell devam etmemelidir(wait). (-20) 
+-“factorial” olarak bir adet program yazýlmalýdýr ce bu myshellden bir adet parametre almalýdýr. “myshell>> factorial 13” çýktý: “13! =  6227020800”.
+Bu programýn çaðýrýlmasý sonucunda shell beklememeli sonucu çözüm gelince yazdýrmalýdýr.  (-20)
+-Komutlar arasýna “ & ” iþareti kullanýlarak komutlar sýrayla iþleyebilmelidir.  Örneðin “ myshell>> plustwo 1 2 & minustwo 4 5” iki programda. (-20) 
+-“cat yazi…” çýktý: “cat:yazi…” (-10) ? “clear” ekran temizler.
+
+Projede yer alan program kodlarýný (c dosyalarý) ile bir adet makefile dosyasý oluþturunuz. Makefile dosyasý çalýþtýrýldýðýnda programlar otomatik derlenebilmelidir. 
+Ödev kontrolcüsü sadece makefile dosyasýný çalýþtýracak ve sonra terminalden myshell programýný çalýþtýracaktýr. Makefile dosyasý olmayan projeler deðerlendirilmez.
+Gönderilecek proje dosyasý icinde yer alacak belgeler:
+-makefile 
+-myshell.c 
+-minustwo.c 
+-plustwo.c 
+-factorial.c 
+-rapor.pdf 
+-[ekranciktilari].[jpeg|png] 
